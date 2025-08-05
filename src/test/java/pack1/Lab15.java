@@ -1,0 +1,43 @@
+package pack1;
+
+import java.time.LocalDate;
+import java.time.Period;
+
+public class Lab15 {
+    String firstName;
+    String lastName;
+    LocalDate dob;
+
+    public Lab15(String firstName, String lastName, LocalDate dob) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.dob = dob;
+    }
+
+    public String getFullName(String firstName, String lastName) {
+        return firstName + " " + lastName;
+    }
+
+    public int calculateAge(LocalDate dob) {
+        LocalDate today = LocalDate.now();
+        return Period.between(dob, today).getYears();
+    }
+
+    public void displayDetails() {
+        String fullName = getFullName(firstName, lastName);
+        int age = calculateAge(dob);
+        System.out.println("Full Name: " + fullName);
+        System.out.println("Date of Birth: " + dob);
+        System.out.println("Age: " + age + " years");
+    }
+
+    public static void main(String[] args) {
+        String firstName = "Anusha";
+        String lastName = "Bhaskar";
+        LocalDate dob = LocalDate.of(2002, 2, 2);
+
+        Lab15 person = new Lab15(firstName, lastName, dob);
+        System.out.println("Person Details -");
+        person.displayDetails();
+    }
+}

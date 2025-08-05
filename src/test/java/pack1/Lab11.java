@@ -1,28 +1,23 @@
 package pack1;
 
-//import java.time.LocalDate;
-//import java.time.Period;
-//import java.time.format.DateTimeFormatter;
-//import java.util.Scanner;
-//
-//public class Lab11 {
-//
-//
-//    public static void main(String[] args) {
-//        Scanner scanner = new Scanner(System.in);
-//        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
-//        System.out.print("Enter a date (dd-MM-yyyy): ");
-//        String input = scanner.nextLine();
-//        try {
-//            LocalDate inputDate = LocalDate.parse(input, formatter);
-//            LocalDate currentDate = LocalDate.now();
-//            Period period = Period.between(inputDate, currentDate);
-//            System.out.println("Years : " + Math.abs(period.getYears()));
-//            System.out.println("Months: " + Math.abs(period.getMonths()));
-//            System.out.println("Days  : " + Math.abs(period.getDays()));
-//        } catch (Exception e) {
-//            System.out.println("Invalid date format. Please use dd-MM-yyyy format");
-//            
-//        		}
-//    }
-//}
+import java.time.LocalDate;
+import java.time.Period;
+import java.time.temporal.ChronoUnit;
+
+public class Lab11 {
+    public static void main(String[] args) {
+        LocalDate givenDate = LocalDate.of(2020, 2, 27);
+        LocalDate currentDate = LocalDate.now();
+
+        Period period = Period.between(givenDate, currentDate);
+        long totalDays = ChronoUnit.DAYS.between(givenDate, currentDate);
+
+        System.out.println("Given Date: " + givenDate);
+        System.out.println("Current Date: " + currentDate);
+        System.out.println("Duration:");
+        System.out.println("Years: " + period.getYears());
+        System.out.println("Months: " + period.getMonths());
+        System.out.println("Days: " + period.getDays());
+        System.out.println("Total Days: " + totalDays);
+    }
+}

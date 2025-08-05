@@ -1,36 +1,20 @@
 package pack1;
-
 import java.time.LocalDate;
-import java.time.Period;
-import java.time.format.DateTimeFormatter;
-import java.util.Scanner;
+import java.time.temporal.ChronoUnit;
 public class Lab12 {
+	  public static void main(String[] args) {
+	        
+	        LocalDate birthDate = LocalDate.of(2003, 4, 14);
+	        LocalDate currentDate = LocalDate.now();
+	        long totalDays = ChronoUnit.DAYS.between(birthDate, currentDate);
 
+	        long years = totalDays / 365;
+	        long remainingDays = totalDays % 365;
+	        long months = remainingDays / 30;
+	        long days = remainingDays % 30;
 
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
-
-		System.out.print("Enter the first date (dd-MM-yyyy): ");
-		String firstDateInput = scanner.nextLine();
-
-		System.out.print("Enter the second date (dd-MM-yyyy): ");
-		String secondDateInput = scanner.nextLine();
-
-		try {
-			LocalDate firstDate = LocalDate.parse(firstDateInput, formatter);
-			LocalDate secondDate = LocalDate.parse(secondDateInput, formatter);
-
-			Period period = Period.between(firstDate, secondDate);
-
-			System.out.println("Duration between " + firstDate + " and " + secondDate + ":");
-			System.out.println("Years : " + Math.abs(period.getYears()));
-			System.out.println("Months: " + Math.abs(period.getMonths()));
-			System.out.println("Days  : " + Math.abs(period.getDays()));
-		} catch (Exception e) {
-			System.out.println("Invalid date format. Please use dd-MM-yyyy format.");
-		}
-
-		}
+	        System.out.println("Years   : " + years);
+	        System.out.println("Months  : " + months);
+	        System.out.println("Days    : " + days);
+	    }
 }
-
