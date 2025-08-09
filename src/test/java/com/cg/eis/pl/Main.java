@@ -38,7 +38,9 @@ public class Main {
 			validateSalary(2500); 
 		} catch (EmployeeException e) {
 			System.out.println("Exception: " + e.getMessage());
+			
 		}
+		sc.close();
 	}
 
 	public static void validateSalary(double salary) throws EmployeeException {
