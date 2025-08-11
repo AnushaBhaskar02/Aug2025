@@ -1,0 +1,601 @@
+﻿Test Case ID,Test Scenario,Precondition,Test Condition,Test Case Steps,Test Data,Expected Result,Actual Result Iteration 1,"Status
+Iteration 1",Actual Result Iteration 2,"Status
+ Iteration 2
+(to be updated only if 
+test case failed in Iteration 1)",Comments,Req: Reference
+TC001,Person age,The Registration page should be available,Verify the person age,"1. Open The Browser
+2. Navigate to the URL 
+3. Click on Register button
+4. Enter the age
+5. Click on Submit button","Browser: Chrome
+url: www.abc.com
+age: 17","It shoud throw the error messge ""Invalid Age""",,,,,,
+TC002,Person age,The Registration page should be available,Verify the person age,"1. Open The Browser
+2. Navigate to the URL 
+3. Click on Register button
+4. Enter the age
+5. Click on Submit button","Browser: Chrome
+url: www.abc.com
+age: 18",It should proceed further,,,,,,
+TC003,Person age,The Registration page should be available,Verify the person age,"1. Open The Browser
+2. Navigate to the URL 
+3. Click on Register button
+4. Enter the age
+5. Click on Submit button","Browser: Chrome
+url: www.abc.com
+age: 19",It should proceed further,,,,,,
+TC004,Person age,The Registration page should be available,Verify the person age,"1. Open The Browser
+2. Navigate to the URL 
+3. Click on Register button
+4. Enter the age
+5. Click on Submit button","Browser: Chrome
+url: www.abc.com
+age: 98",It should proceed further,,,,,,
+TC005,Person age,The Registration page should be available,Verify the person age,"1. Open The Browser
+2. Navigate to the URL 
+3. Click on Register button
+4. Enter the age
+5. Click on Submit button","Browser: Chrome
+url: www.abc.com
+age: 99",It should proceed further,,,,,,
+TC006,Person age,The Registration page should be available,Verify the person age,"1. Open The Browser
+2. Navigate to the URL 
+3. Click on Register button
+4. Enter the age
+5. Click on Submit button","Browser: Chrome
+url: www.abc.com
+age: 100","It should throw the error message ""Invalid Age""",,,,,,
+TC007,Student Marks,The Student Porta Page should be available,Verify whether the student clears the Exam with valid marks ,"1. Open The Browser
+2. Navigate to the URL 
+3. Click on Get Result button
+4. Enter the Hall Ticket Number
+5. Click on Submit button                                   6. Check the Results",Browser: Chrome                                              url:www.stu.com                                                              Marks Appeared : 59,"It Should throw the error message ""Not Cleared Exam""",,,,,,
+TC008,Student Marks,The Student Porta Page should be available,Verify whether the student clears the Exam with valid marks ,"1. Open The Browser
+2. Navigate to the URL 
+3. Click on Get Result button
+4. Enter the Hall Ticket Number
+5. Click on Submit button                                          6. Check the Results",Browser: Chrome                                              url:www.stu.com                                                                         Marks Appeared : 67,"It Should throw the message ""Cleared Exam""",,,,,,
+TC009,Student Marks,The Student Portal Page should be available,Verify whether the student clears the Exam with valid marks ,"1. Open The Browser
+2. Navigate to the URL 
+3. Click on Get Result button
+4. Enter the Hall Ticket Number
+5. Click on Submit button                                   6. Check the Results",Browser: Chrome                                              url:www.stu.com                                                                  Marks Appeared : 100,"It Should throw the message ""Cleared Exam""",,,,,,
+TC010,Drivers age,The Agency Hiring Page Should be available,Verify the Drivers Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Click on Apply button
+4. Enter the age
+5. Click on Submit button","Browser: Chrome
+url: www.dri.com
+age: 17","It shoud throw the error messge ""Invalid Age""",,,,,,
+TC011,Drivers age,The Agency Hiring Page Should be available,Verify the Drivers Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Click on Apply button
+4. Enter the age
+5. Click on Submit button","Browser: Chrome
+url: www.dri.com
+age: 18",It should proceed further to pay of Rs. 15000/- ,,,,,,
+TC012,Drivers age,The Agency Hiring Page Should be available,Verify the Drivers Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Click on Apply button
+4. Enter the age
+5. Click on Submit button","Browser: Chrome
+url: www.dri.com
+age: 19",It should proceed further to pay of Rs. 15000/- ,,,,,,
+TC013,Drivers age,The Agency Hiring Page Should be available,Verify the Drivers Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Click on Apply button
+4. Enter the age
+5. Click on Submit button","Browser: Chrome
+url: www.dri.com
+age: 24",It should proceed further to pay of Rs. 15000/- ,,,,,,
+TC014,Drivers age,The Agency Hiring Page Should be available,Verify the Drivers Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Click on Apply button
+4. Enter the age
+5. Click on Submit button","Browser: Chrome
+url: www.dri.com
+age: 25",It should proceed further to pay of Rs. 15000/- ,,,,,,
+TC015,Drivers age,The Agency Hiring Page Should be available,Verify the Drivers Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Click on Apply button
+4. Enter the age
+5. Click on Submit button","Browser: Chrome
+url: www.dri.com
+age: 26","It shoud throw the error messge ""Invalid Age""",,,,,,
+TC016,Drivers age,The Agency Hiring Page Should be available,Verify the Drivers Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Click on Apply button
+4. Enter the age
+5. Click on Submit button","Browser: Chrome
+url: www.dri.com
+age: 39","It shoud throw the error messge ""Invalid Age""",,,,,,
+TC017,Drivers age,The Agency Hiring Page Should be available,Verify the Drivers Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Click on Apply button
+4. Enter the age
+5. Click on Submit button","Browser: Chrome
+url: www.dri.com
+age: 40",It should proceed further pay of 10% more than that of the drivers up  to 25 years get,,,,,,
+TC018,Drivers age,The Agency Hiring Page Should be available,Verify the Drivers Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Click on Apply button
+4. Enter the age
+5. Click on Submit button","Browser: Chrome
+url: www.dri.com
+age: 41",It should proceed further pay of 10% more than that of the drivers up  to 25 years get,,,,,,
+TC019,Drivers age,The Agency Hiring Page Should be available,Verify the Drivers Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Click on Apply button
+4. Enter the age
+5. Click on Submit button","Browser: Chrome
+url: www.dri.com
+age: 63",It should proceed further pay of 10% more than that of the drivers up  to 25 years get,,,,,,
+TC020,Drivers age,The Agency Hiring Page Should be available,Verify the Drivers Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Click on Apply button
+4. Enter the age
+5. Click on Submit button","Browser: Chrome
+url: www.dri.com
+age: 64",It should proceed further pay of 10% more than that of the drivers up  to 25 years get,,,,,,
+TC021,Drivers age,The Agency Hiring Page Should be available,Verify the Drivers Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Click on Apply button
+4. Enter the age
+5. Click on Submit button","Browser: Chrome
+url: www.dri.com
+age: 65",It should proceed further pay of 5% more than that of the drivers up  to 25 years get,,,,,,
+TC022,Drivers age,The Agency Hiring Page Should be available,Verify the Drivers Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Click on Apply button
+4. Enter the age
+5. Click on Submit button","Browser: Chrome
+url: www.dri.com
+age: 66",It should proceed further pay of 5% more than that of the drivers up  to 25 years get,,,,,,
+TC023,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: -1","It should throw the error message ""Invalid Age""",,,,,,
+TC024,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 8",It Should Proceed further as eligible for the discounts in Winter Sale,,,,,,
+TC025,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 9","It should throw the error message ""Invalid Age""",,,,,,
+TC026,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 34","It should throw the error message ""Invalid Age""",,,,,,
+TC027,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 40",It Should Proceed further as eligible for the discounts in Winter Sale,,,,,,
+TC028,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 46","It should throw the error message ""Invalid Age""",,,,,,
+TC029,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 59","It should throw the error message ""Invalid Age""",,,,,,
+TC030,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 15",,,,,,,
+TC031,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 16",,,,,,,
+TC032,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 17",,,,,,,
+TC033,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 18",,,,,,,
+TC034,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 19",,,,,,,
+TC035,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 20",,,,,,,
+TC036,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 21",,,,,,,
+TC037,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 22",,,,,,,
+TC038,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 23",,,,,,,
+TC039,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 24",,,,,,,
+TC040,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 25",,,,,,,
+TC041,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 26",,,,,,,
+TC042,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 27",,,,,,,
+TC043,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 28",,,,,,,
+TC044,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 29",,,,,,,
+TC045,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 30",,,,,,,
+TC046,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 31",,,,,,,
+TC047,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 32",,,,,,,
+TC048,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 33",,,,,,,
+TC049,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 34",,,,,,,
+TC050,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 35",,,,,,,
+TC051,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 36",,,,,,,
+TC052,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 37",,,,,,,
+TC053,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 38",,,,,,,
+TC054,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 39",,,,,,,
+TC055,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 40",,,,,,,
+TC056,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 41",,,,,,,
+TC057,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 42",,,,,,,
+TC058,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 43",,,,,,,
+TC059,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 44",,,,,,,
+TC060,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 45",,,,,,,
+TC061,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 46",,,,,,,
+TC062,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 47",,,,,,,
+TC063,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 48",,,,,,,
+TC064,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 49",,,,,,,
+TC065,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 50",,,,,,,
+TC066,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 51",,,,,,,
+TC067,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 52",,,,,,,
+TC068,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 53",,,,,,,
+TC069,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 54",,,,,,,
+TC070,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 55",,,,,,,
+TC071,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 56",,,,,,,
+TC072,Winter Sale,The Sales Page Should be available,Verify Persons Age,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an item and Click on Buy Now button
+4. Enter the adress and age
+5. Click on Submit button","Browser: Chrome
+url: www.win.com
+age: 60",It Should Proceed further as eligible for the discounts in Winter Sale,,,,,,
+TC073,printer cartridges ordered,The Sales Page Should be available,Verify number of printer cartridges ordered,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an printer cartridges and Click on Order Now button
+4. Enter number of printer cartridges
+5. Click on Submit button","Browser: Chrome
+url: www.pri.com
+Orders Quantities : 4","It Should thorw an error message ""The minimum order quantity is 5""",,,,,,
+TC074,printer cartridges ordered,The Sales Page Should be available,Verify number of printer cartridges ordered,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an printer cartridges and Click on Order Now button
+4. Enter number of printer cartridges
+5. Click on Submit button","Browser: Chrome
+url: www.pri.com
+Orders Quantities : 5",It Should Proceed furthur,,,,,,
+TC075,printer cartridges ordered,The Sales Page Should be available,Verify number of printer cartridges ordered,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an printer cartridges and Click on Order Now button
+4. Enter number of printer cartridges
+5. Click on Submit button","Browser: Chrome
+url: www.pri.com
+Orders Quantities : 99",It Should Proceed furthur,,,,,,
+TC076,printer cartridges ordered,The Sales Page Should be available,Verify number of printer cartridges ordered,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an printer cartridges and Click on Order Now button
+4. Enter number of printer cartridges
+5. Click on Submit button","Browser: Chrome
+url: www.pri.com
+Orders Quantities : 100",It Should Proceed furthur with The 20%  discount for orders ,,,,,,
+TC077,printer cartridges ordered,The Sales Page Should be available,Verify number of printer cartridges ordered,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an printer cartridges and Click on Order Now button
+4. Enter number of printer cartridges
+5. Click on Submit button","Browser: Chrome
+url: www.pri.com
+Orders Quantities : 120",It Should Proceed furthur with The 20%  discount for orders ,,,,,,
+TC078,Employees Bonus,The Company's employees portal Page Should be available,Verify Number of Years working in company,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an Employees and Click on Get Detail button
+4. Enter number of Years Working in company
+5. Click on Submit button","Browser: Chrome
+url: www.Bon.com
+Number of Years working in company :1","It Should thorw an error message ""zero if they  have been with the company for less than two years """,,,,,,
+TC079,Employees Bonus,The Company's employees portal Page Should be available,Verify Number of Years working in company,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an Employees and Click on Get Detail button
+4. Enter number of Years Working in company
+5. Click on Submit button","Browser: Chrome
+url: www.Bon.com
+Number of Years working in company :2",It Should Proceed futhur as 10% of their salary for more than two  but less than five years,,,,,,
+TC080,Employees Bonus,The Company's employees portal Page Should be available,Verify Number of Years working in company,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an Employees and Click on Get Detail button
+4. Enter number of Years Working in company
+5. Click on Submit button","Browser: Chrome
+url: www.Bon.com
+Number of Years working in company :3",It Should Proceed futhur as 10% of their salary for more than two  but less than five years,,,,,,
+TC081,Employees Bonus,The Company's employees portal Page Should be available,Verify Number of Years working in company,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an Employees and Click on Get Detail button
+4. Enter number of Years Working in company
+5. Click on Submit button","Browser: Chrome
+url: www.Bon.com
+Number of Years working in company :4",It Should Proceed futhur as 10% of their salary for more than two  but less than five years,,,,,,
+TC082,Employees Bonus,The Company's employees portal Page Should be available,Verify Number of Years working in company,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an Employees and Click on Get Detail button
+4. Enter number of Years Working in company
+5. Click on Submit button","Browser: Chrome
+url: www.Bon.com
+Number of Years working in company :6",It Should Proceed futhur as 25% of their salary for five to ten years,,,,,,
+TC083,Employees Bonus,The Company's employees portal Page Should be available,Verify Number of Years working in company,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an Employees and Click on Get Detail button
+4. Enter number of Years Working in company
+5. Click on Submit button","Browser: Chrome
+url: www.Bon.com
+Number of Years working in company :7",It Should Proceed futhur as 25% of their salary for five to ten years,,,,,,
+TC084,Employees Bonus,The Company's employees portal Page Should be available,Verify Number of Years working in company,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an Employees and Click on Get Detail button
+4. Enter number of Years Working in company
+5. Click on Submit button","Browser: Chrome
+url: www.Bon.com
+Number of Years working in company :9",It Should Proceed futhur as 25% of their salary for five to ten years,,,,,,
+TC085,Employees Bonus,The Company's employees portal Page Should be available,Verify Number of Years working in company,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an Employees and Click on Get Detail button
+4. Enter number of Years Working in company
+5. Click on Submit button","Browser: Chrome
+url: www.Bon.com
+Number of Years working in company :10",It Should Proceed futhur as 25% of their salary for five to ten years,,,,,,
+TC086,Employees Bonus,The Company's employees portal Page Should be available,Verify Number of Years working in company,"1. Open The Browser
+2. Navigate to the URL 
+3. Select an Employees and Click on Get Detail button
+4. Enter number of Years Working in company
+5. Click on Submit button","Browser: Chrome
+url: www.Bon.com
+Number of Years working in company :11",It Should Proceed futhur as 35% of their salary for ten years or more,,,,,,
