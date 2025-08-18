@@ -18,8 +18,8 @@ public class Lab006{
 		driver.findElement(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/a ")).click();
 		 driver.findElement(By.linkText("Login")).click();
 		
-		driver.findElement(By.id("input-email")).sendKeys("anusha@gmail.com");
-		driver.findElement(By.id("input-password")).sendKeys("anu123");		
+		driver.findElement(By.id("input-email")).sendKeys("anusha26@gmail.com");
+		driver.findElement(By.id("input-password")).sendKeys("anu26");		
 		driver.findElement(By.xpath("//input[@value='Login']")).click();
 		Thread.sleep(3000);
 		
