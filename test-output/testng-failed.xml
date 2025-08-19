@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.TC012_TestNG">
+      <class name="selenium.Lab9_lab4crossbrowser">
         <methods>
-          <include name="f" invocation-numbers="0 1"/>
-          <include name="beforeClass"/>
-          <include name="beforeSuite"/>
-          <include name="afterTest"/>
-          <include name="afterSuite"/>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-          <include name="beforeTest"/>
-          <include name="afterClass"/>
+          <include name="test2"/>
         </methods>
-      </class> <!-- selenium.TC012_TestNG -->
+      </class> <!-- selenium.Lab9_lab4crossbrowser -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
