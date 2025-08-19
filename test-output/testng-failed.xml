@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium.Lab9_lab4crossbrowser">
+      <class name="pack4.Lab9_lab3crossbrowser">
         <methods>
-          <include name="test2"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- selenium.Lab9_lab4crossbrowser -->
+      </class> <!-- pack4.Lab9_lab3crossbrowser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
