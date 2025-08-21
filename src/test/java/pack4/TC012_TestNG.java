@@ -27,9 +27,13 @@ public class TC012_TestNG {
 		Thread.sleep(3000);
 		//WebElement username=driver.findElement(By.name("username"));
 		//username.sendKeys("Admin");
-		driver.findElement(By.name("username")).sendKeys(username);
-		driver.findElement(By.name("password")).sendKeys(password);
-		driver.findElement(By.xpath("//button[@type='submit']")).click();
+		login_pageobjects obj=new login_pageobjects(driver);
+		obj.enterusername(username);
+		obj.enterpassword(password);
+		obj.clickonlogin();
+//		driver.findElement(By.name("username")).sendKeys(username);
+//		driver.findElement(By.name("password")).sendKeys(password);
+//		driver.findElement(By.xpath("//button[@type='submit']")).click();
 
   }
   @BeforeMethod
