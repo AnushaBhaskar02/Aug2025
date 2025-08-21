@@ -18,7 +18,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.DataProvider;
 
-public class Qn_14 {
+public class Lab14 {
 	WebDriver driver;
   @Test(dataProvider = "dp")
   public void f(String firstname, String lastname, String email, String phone, String password, String confpass) {
