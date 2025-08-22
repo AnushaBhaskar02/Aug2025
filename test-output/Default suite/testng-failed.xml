@@ -3,13 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pack4.Qn_14">
+      <class name="pack4.Lab015_CSV">
         <methods>
-          <include name="f"/>
-          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
           <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="f" invocation-numbers="0 2"/>
         </methods>
-      </class> <!-- pack4.Qn_14 -->
+      </class> <!-- pack4.Lab015_CSV -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
