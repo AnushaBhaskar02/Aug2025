@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-26T22:44:23 IST" name="Suite" finished-at="2025-08-26T22:44:40 IST" duration-ms="16565">
+    <groups>
+    </groups>
+    <test started-at="2025-08-26T22:44:23 IST" name="Test" finished-at="2025-08-26T22:44:40 IST" duration-ms="16565">
+      <class name="pack5.Q03">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pack5.Q03@130d63be]" started-at="2025-08-26T22:44:23 IST" name="beforeMethod" finished-at="2025-08-26T22:44:27 IST" duration-ms="3385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f(java.lang.String)[pri:0, instance:pack5.Q03@130d63be]" started-at="2025-08-26T22:44:27 IST" name="f" data-provider="dp" finished-at="2025-08-26T22:44:40 IST" duration-ms="12812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laptop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pack5.Q03@130d63be]" started-at="2025-08-26T22:44:40 IST" name="afterMethod" finished-at="2025-08-26T22:44:40 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- pack5.Q03 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

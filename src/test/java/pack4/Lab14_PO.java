@@ -34,7 +34,5 @@ public class Lab14_PO {
 		driver.findElement(newlet).click();
 		driver.findElement(confirm).click();
 	}
-	
-	
 
 }

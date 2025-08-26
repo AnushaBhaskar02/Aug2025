@@ -16,18 +16,12 @@ package pack4;
 
   import org.testng.annotations.BeforeClass;
    
-  import java.io.File;
-
-  import java.io.FileInputStream;
-
   import java.io.FileReader;
 
   import java.io.IOException;
 
   import java.util.List;
    
-  import org.apache.poi.xssf.usermodel.XSSFSheet;
-
   import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
   import org.openqa.selenium.By;
