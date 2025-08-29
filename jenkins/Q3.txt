@@ -1,0 +1,81 @@
+Started by user Anusha Bhaskar D
+Running as SYSTEM
+Building in workspace C:\Users\HP\.jenkins\workspace\jenkins_Q3
+[jenkins_Q3] $ cmd /c call C:\Users\HP\AppData\Local\Temp\jenkins14992430066770440852.bat
+
+C:\Users\HP\.jenkins\workspace\jenkins_Q3>cd C:\Users\HP\Desktop\Wipro_maven 
+
+C:\Users\HP\Desktop\Wipro_maven>mvn clean test 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< 2Aug2025:2Aug2025 >--------------------------
+[INFO] Building 2Aug2025 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ 2Aug2025 ---
+[INFO] Deleting C:\Users\HP\Desktop\Wipro_maven\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ 2Aug2025 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ 2Aug2025 ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 7 source files with javac [debug target 21] to target\classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ 2Aug2025 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 4 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ 2Aug2025 ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 95 source files with javac [debug target 21] to target\test-classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] /C:/Users/HP/Desktop/Wipro_maven/src/test/java/com/orangehrm/stepdefinitions/TestRunner.java: C:\Users\HP\Desktop\Wipro_maven\src\test\java\com\orangehrm\stepdefinitions\TestRunner.java uses or overrides a deprecated API.
+[INFO] /C:/Users/HP/Desktop/Wipro_maven/src/test/java/com/orangehrm/stepdefinitions/TestRunner.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ 2Aug2025 ---
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 26, 2025 10:44:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 139
+1: Sponsored Ad - Primebook 2 Neo 2025 (New Launch) Gen 2 | 6GB RAM, 128GB UFS 2.2 Storage | MediaTek Helio G99 | Android 15 (PrimeOS 3.0) | in-Built AI | 11.6” Thin & Light | Type-C, USB, MicroSD | Gray
+2: Sponsored Ad - Lapcare HP Pavilion 15 Notebook PC 15-n100~299 HP Pavilion 15 TouchSmart Notebook PC 15-n200~299 HP Pavilion 14 Notebook PC 14-n100~299 HP Pavilion 14 TouchSmart Notebook PC 14-n200~299
+3: HP 15, AMD Ryzen 3 7320U (8GB LPDDR5, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6"/39.6cm, Win 11, Office 21, Silver, 1.59kg, fc0154AU, AMD Radeon Graphics, 1080p FHD Camera Laptop
+4: HP 15s, 12th Gen Intel Core i3-1215U (8GB DDR4, 512GB SSD) Anti-Glare, 15.6"/39.6cm,FHD, Win 11, MS Office 21, Silver, 1.69kg, fy5006tu/fd0751tu/fd0752tu, UHD Graphics, HD Camera, Dual Speakers Laptop
+5: Alienware New 18 Area-51 Gaming Laptop, AI Enabled Core Ultra 9 275HX Processor, 32GB DDR5, 1TB SSD, RTX 5070Ti 12GB GDDR7 Graphics, 18.0" WQXGA 300Hz 500 nits Display, Liquid Teal Color, 4.34kg
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.13 s -- in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  25.678 s
+[INFO] Finished at: 2025-08-26T22:44:40+05:30
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS
